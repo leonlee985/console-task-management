@@ -1,6 +1,6 @@
 
 ================================
-# console-task-management Yii2后台任务管理
+# console-task-management （Yii2后台脚本管理）
 
 ##设计思路： 
 后台启动主进程，主进程负责监控及调用任务列表。
