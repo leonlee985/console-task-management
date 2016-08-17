@@ -20,6 +20,6 @@
 ##部分截图:
 <img src="https://github.com/leonlee985/console-task-management/blob/master/img/index.png" alt="图片名称" align=center />
 
-<img src="https://github.com/leonlee985/console-task-management/blob/master/img/new.png" alt="图片名称" align=center />
+<img src="https://github.com/leonlee985/console-task-management/blob/master/img/new.png"  width = "320" height = "276" alt="图片名称" align=center />
 
 <img src="https://github.com/leonlee985/console-task-management/blob/master/img/console-log.png" alt="图片名称" align=center />
