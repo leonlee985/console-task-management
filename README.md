@@ -2,7 +2,6 @@
 ================================
 # console-task-management 后台任务管理
 
-
 ##设计思路： 
 后台启动主进程，主进程负责监控及调用任务列表。
 任务类型暂时分为3种，单次，重复间隔，每日固定时间
@@ -18,3 +17,9 @@
 在actionXXX里编写业务逻辑，注意在关键业务的地方使用$this->log()写入日志. 并在最后返回true/false 标明任务成功或失败。(如果不返回true,则会默认任务完成状态为失败)
 在界面里新建一个任务，填写名称，执行程序(使用在console里执行的名称eg, controller/action), 选择任务类型以及开始时间。保存。一个执行程序只能在一个任务里，如果两个任务填写了同一个任务则会报错。
 
+##部分截图:
+<img src="https://github.com/leonlee985/console-task-management/blob/master/img/index.png" alt="图片名称" align=center />
+
+<img src="https://github.com/leonlee985/console-task-management/blob/master/img/new.png" alt="图片名称" align=center />
+
+<img src="https://github.com/leonlee985/console-task-management/blob/master/img/console-log.png" alt="图片名称" align=center />
